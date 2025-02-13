@@ -46,7 +46,6 @@ const students = [
   }
 ];
 
-// POST /students/above-threshold
 app.post('/students/above-threshold', (req, res) => {
   const { threshold } = req.body;
 
